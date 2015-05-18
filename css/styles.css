@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif);
+* {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing;
+      box-sizing: border-box;
+}
+
+body{
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	background-color: #03032e;
+	background-image: url('../images/sketch1.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+
+}
+
+header {
+	padding:10px 10px;
+
+}
+section {
+	padding:50px 10px;
+
+
+}
+h1{
+	font-size: 15em;
+	font-family: AsterismCleanBold-Regular; 
+	font-weight: normal; 
+	font-style: normal; 
+	line-height: .18em;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-5deg);
+	margin-right:.8em;
+	margin-bottom:.3em;
+	
+}
+
+#to{
+	font-size: .5em;
+	display:inline;
+}
+
+#consumer{
+	margin-left:.6em;
+}
+
+h2{ 
+	font-size: 1.8em;
+}
+
+nav { margin: 5px 5px;
+
+}
+nav a{
+	padding-bottom: 5px;
+	color: white;
+	text-decoration: none;
+	display:inline-block;
+	font-size: 1em;
+	border-bottom: 2px solid transparent;
+	margin:0 60px;
+}
+
+nav a:hover{
+
+	border-bottom: 1px dotted #ff0048;
+}
+
+p{
+	font-size: 1em;
+}
+
+figcaption{
+	font-size: .3em;
+	color:#796E6F;
+}
+
+#intro{
+	width: 380px;
+	text-align: left;
+	margin-left: 50%;
+	font-family: 'Noto Serif', serif;
+}
