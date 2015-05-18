@@ -141,8 +141,14 @@ button.small:hover{
 	visibility: hidden;
 }
 .fa{
-	margin-right: 1em;
-	margin-bottom: 1em;
+	margin: 0 .5em 1em;
+	font-size: 1.2em;
+	color:rgba(255, 255, 255, .2);
+
+}
+.fa:hover{
+	border-bottom: none;
+	color:rgba(255, 255, 255, 1);
 }
 /* #fashionis-animation{
 	border-right: .1em solid black;
@@ -159,7 +165,7 @@ button.small:hover{
 
 .line-top{
 	border-right:1px solid white;
-	height: 150%;
+	height: 90%;
 	margin-top: 12em;
 	position: absolute;
 	left: 19%;
@@ -167,7 +173,7 @@ button.small:hover{
 }
 .line{
 	border-right:1px solid white;
-	height: 150%;
+	height: 90%;
 	padding-top: 120px;
 	position: absolute;
 	left: 19%;
@@ -246,4 +252,30 @@ button.small:hover{
 	background-position: center top;
 	background-size: cover;	
 }
+footer{
+	padding:1em 0;
+	text-align: center;
+	color:white;
+}
+footer>p{
+	font-size: 1.1em;
+}
+#leslie:hover{
+	width: 2.5em;
+	height: 2.5em;
+	border-radius: 1.25em;
+	background-image: url("../images/leslie.jpg");
+	background-size: 4em;
+	background-position: top center;
+	margin:1.5em auto;
+}
+#leslie{
+	width: 2.5em;
+	height: 2.5em;
 
+	background-image: url("../images/leslie-logo.png");
+	background-size: 2.5em;
+	background-repeat: no-repeat;
+
+	margin:1.5em auto;
+}
