@@ -33,6 +33,7 @@ body{
 
 header {
 	padding:10px 10px 50px;
+	min-height: 100%;
 }
 
 section {
