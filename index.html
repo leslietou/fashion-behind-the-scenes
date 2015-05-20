@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8"> 
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="Fonts/Concept.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
@@ -14,13 +13,14 @@
 
 </head>
 <body>
-
+	<p id="menu-icon" class="fa"><a href="#">&#xf0c9;</a></p>
 	<nav>
-		<a href="#fashionis">Fashion Is</a>
-		<a href="#thebreakdown">The Breakdown</a>
-		<a href="#whoswho">Who's who</a>
-		<a href="#techboom">Tech Boom</a>
+		<a data-scroll href="#fashionis">Fashion Is</a>
+		<a data-scroll href="#thebreakdown">The Breakdown</a>
+		<a data-scroll href="#whoswho">Who's who</a>
+		<a data-scroll href="#techboom">Tech Boom</a>
 	</nav>
+
 
 	<header>
 		<h1 id="concept">Concept <span id="to">to</span></h1>
@@ -29,7 +29,7 @@
 		Also read about how the industry has changed alongside a growing consumer demand as well as how the tech boom has made an impact.</p>
 	</header>
 
-	<section class="light-scheme" id="fashionis-section">
+	<section class="light-scheme" id="fashionis">
 		<a name="fashionis"></a> 
 		<h3>Fashion Is</h3><input id="fashionis-input" type="text">
 		<button class="small">submit</button><i class="fa fa-check"></i>
@@ -46,7 +46,7 @@
 	</div>
 		<section class="dark-scheme" id="thebreakdown">
 			<p class="subhead">So&hellip;How does it all go down?</p>
-			<h2>The Breakdown</h2>
+			<h2>The <span id="break">Break</span><span id="down">down</span></h2>
 			<a name="thebreakdown"></a> 
 			<div class="subsection" id="design">
 				<h3>Design</h3>
@@ -83,5 +83,16 @@
 			<!-- <a href="https://open.spotify.com/user/1217969991" class="fa last" target="_blank" >&#xf1bc;</a> -->
 
 		</footer>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+		<script src="js/lib/smooth-scroll.min.js"></script>	
+		<script src="js/main.js"></script>
+		<script> smoothScroll.init(); </script>
 </body>
 </html>
+
+
+
+
+
+
+
